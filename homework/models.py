@@ -78,7 +78,7 @@ class Cart:
         total_price = 0
         for a in self.products:
             total_price += a.price * self.products[a]
-
+        return total_price
 
     def buy(self):
         """
